@@ -1,20 +1,48 @@
-Ready to Go - Moving Services Website
-Welcome to the Ready to Go repository! This is the official website for Ready to Go, a moving services company that offers professional and reliable moving solutions for individuals and businesses. Whether you're moving locally or across the country, Ready to Go ensures a hassle-free experience from start to finish.
+# Astro Starter Kit: Basics
 
-Features
-User-Friendly Interface: Designed with ease of use in mind, allowing users to quickly navigate through services, quotes, and contact information.
+```sh
+npm create astro@latest -- --template basics
+```
 
-Service Overview: Detailed description of the moving services provided, including local and long-distance moving, packing, and special requests.
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-Quote System: Users can request quotes for their move by filling out a simple form that gathers all necessary details.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-Contact Information: A clear and easy-to-find contact page with all the relevant ways to get in touch with the company, including phone number, email, and social media links.
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-Mobile Responsive: The site is fully responsive, ensuring a seamless experience on desktop, tablet, and mobile devices.
+## 🚀 Project Structure
 
-Technologies Used
-Astro: A modern framework for building fast, optimized websites with minimal JavaScript.
+Inside of your Astro project, you'll see the following folders and files:
 
-Tailwind CSS: A utility-first CSS framework for creating responsive and customizable designs quickly.
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-JavaScript: Used to add interactivity and dynamic behavior to the website.
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
