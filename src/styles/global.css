@@ -9,10 +9,7 @@ body {
 
 @theme {
   --color-primary: #002441;
-  --color-primary-text: rgb(255, 255, 255);
-  --color-secondary-text: rgb(228, 228, 228);
-  --color-card-border: #ffffff;
   --color-button-border: #EBBB0D;
-  --color-icon: #e7e7e7;
+
 }
 
